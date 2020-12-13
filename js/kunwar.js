@@ -1,3 +1,6 @@
+//Kunwar Surya Partap
+//200442032
+
 function initiate() {
     // populate the board with whatever the user inputted
     var startingBoard = [[]]

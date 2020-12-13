@@ -1,5 +1,8 @@
+//Kulpreet Singh
+//200439805
+
+// makes sure there are no repeating numbers for each row
 function rowsGood(board){
-    // makes sure there are no repeating numbers for each row
     for (var i = 0; i < 9; i++){
         var cur = []
         for (var j = 0; j < 9; j++){
@@ -14,8 +17,8 @@ function rowsGood(board){
     return true
 }
 
+// makes sure there are no repeating numbers for each column
 function columnsGood(board){
-    // makes sure there are no repeating numbers for each column
     for (var i = 0; i < 9; i++){
         var cur = []
         for (var j = 0; j < 9; j++){

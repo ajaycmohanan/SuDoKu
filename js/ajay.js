@@ -1,8 +1,9 @@
+//Ajay Mohan
+//200441862
 
-
+// solves the given sudoku board
+// ASSUME the given sudoku board is valid
 function solve(board) {
-    // solves the given sudoku board
-    // ASSUME the given sudoku board is valid
     if (solved(board)) {
         return board
     }
@@ -13,9 +14,9 @@ function solve(board) {
     }
 }
 
+// List[Board] -> Board or false
+// finds a valid solution to the sudoku problem
 function searchForSolution(boards){
-    // List[Board] -> Board or false
-    // finds a valid solution to the sudoku problem
     if (boards.length < 1){
         return false
     }
@@ -32,9 +33,9 @@ function searchForSolution(boards){
     }
 }
 
-
+// checks to see if the given puzzle is solved
 function solved(board){
-    // checks to see if the given puzzle is solved
+
     for (var i = 0; i < 9; i++){
         for (var j = 0; j < 9; j++){
             if (board[i][j] == null){
